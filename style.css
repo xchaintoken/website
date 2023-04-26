@@ -7,6 +7,10 @@ Version: 0.1
 /*============================
   Nftpro Main Menu Area Css
 ==============================*/
+.saiiiiii{
+    max-width: 900px;
+    margin: 0 auto;
+}
 .cryptobit_nav_manu {
     background: transparent;
     position: relative;
