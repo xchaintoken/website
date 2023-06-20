@@ -2803,7 +2803,7 @@ a.paginate_button {
 .team-single-box {
     background: #1E273D;
     text-align: center;
-    padding: 40px 0 35px;
+    padding-bottom: 15px;
     border-radius: 5px;
     margin-bottom: 30px;
     position: relative;
@@ -2828,7 +2828,7 @@ a.paginate_button {
 .team-title h3 {
     font-size: 20px;
     font-weight: 600;
-    padding: 13px 0 0;
+    padding: 0px 0 0;
     background: linear-gradient( to right, #00B78D 50%, #fff 50%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -2895,6 +2895,29 @@ a.paginate_button {
 }
 .upper1 .team-social-menu ul li a span {
     color: #F4AE64 !important;
+}
+/*box upper*/
+.upper6.team-single-box:before {
+    background: url(assets/images/resource/shape-6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.upper6 .team-title h3 {
+    background: linear-gradient( to right, #000 50%, #fff 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 200%, 100%;
+    background-position: 100%;
+}
+.upper6 .team-text p {
+    color: #000;
+}
+.upper6 .team-text p:before {
+    background-image: linear-gradient(to bottom, #000, #122135);
+}
+.upper6 .team-social-menu ul li a span {
+    color: #000 !important;
 }
 /*upper 2*/
 .upper2.team-single-box:before {
