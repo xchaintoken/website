@@ -2896,6 +2896,30 @@ a.paginate_button {
 .upper1 .team-social-menu ul li a span {
     color: #F4AE64 !important;
 }
+
+/*box upper*/
+.uppersolid.team-single-box:before {
+    background: url(assets/images/resource/shape-3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.uppersolid .team-title h3 {
+    background: linear-gradient( to right, #000 50%, #fff 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 200%, 100%;
+    background-position: 100%;
+}
+.uppersolid .team-text p {
+    color: #000;
+}
+.uppersolid .team-text p:before {
+    background-image: linear-gradient(to bottom, #000, #122135);
+}
+.uppersolid .team-social-menu ul li a span {
+    color: #000 !important;
+}
 /*box upper*/
 .upper6.team-single-box:before {
     background: url(assets/images/resource/shape-6.png);
