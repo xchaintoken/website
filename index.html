@@ -38,7 +38,7 @@
 	<!-- meanmenu CSS -->
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />
 	<!-- Main Style CSS -->
-	<link rel="stylesheet"  href="style.css?v=9055" type="text/css" media="all" />
+	<link rel="stylesheet"  href="style.css?v=90557" type="text/css" media="all" />
 	<!-- venobox CSS -->
 	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all" />
 	<!-- responsive CSS -->
@@ -164,10 +164,10 @@
                     <p class="section-text">Scalability is the differential in the X-Chain network More transactions per second (TPS) Cheaper transaction cost, Faster finality ,Interoperability. Buy and Sell X-Chain Tokens on ETH with 0 fees on pancakeswap after launch.</p>
                 </div>
                 <div class="about-button mb-5 mb-lg-0">
-                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalBridge">Swap Multi-chain</a>
+                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalBridge">Bridge Cross-Chain</a>
                 </div>
                 <div class="about-button">
-                    <a href="https://bridge.xchain.finance" target="_blank">Bridge</a>
+                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalSwapMult">Swap Multi-chain</a>
                 </div>
             </div>
         </div>
@@ -178,7 +178,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Swap Multi-chain</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Bridge Cross-Chain</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -187,6 +187,30 @@
       </div>
     </div>
   </div>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalSwapMult" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Swap Multi-chain</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe id="iframeSwapMulti" src="" width="100%" height="700" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var myModal = document.getElementById('exampleModalSwapMult');
+    const url = 'https://widget.openocean.finance?p=JTIzMEYwMDFBJTI0KiUyNCUyMzFFMTgyMiUyNColMjQlMjMwRjAwMUElMjQqJTI0JTIzMzAyOTNBJTI0KiUyNCUyM0ZGRkZGRiUyNColMjQlMjM4RDg0OUElMjQqJTI0JTIzOTc0MURCJTI0KiUyNCUyM2ZmZmZmZiUyNColMjQlMjMzMzI2M0UlMjQqJTI0JTIzQjU2NUY1JTI0KiUyNCUyMzQ3RTA0OCUyNColMjQlMjNEQTMwNTAlMjQqJTI0WC1DaGFpbiUyNColMjRNb25vc3BhY2UlMjQqJTI0aHR0cHMlM0ElMkYlMkZpLmliYi5jbyUyRjhybnc3SlElMkZtc3RpbGUtMTUweDE1MC5wbmclMjQqJTI0WC1DaGFpbiUyNColMjQweDdlZjkxNjFiRDNGRDRBM0I3NzgxNDIwNTE3MTYxNzRDYzZiYmE5MDMlMjQqJTI0MyUyNColMjRldGglMjQqJTI0RVRIJTI0KiUyNFVTRFQlMjQqJTI0';
+    myModal.addEventListener('shown.bs.modal', function () {
+        document.getElementById('iframeSwapMulti').src = url;
+    });
+    myModal.addEventListener('hidden.bs.modal', function () {
+        document.getElementById('iframeSwapMulti').src = "";
+    });
+  </script>
 <!--==================================================-->
 <!-- End cryptobit about Area -->
 <!--==================================================-->
