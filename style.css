@@ -7,6 +7,22 @@ Version: 0.1
 /*============================
   Nftpro Main Menu Area Css
 ==============================*/
+.modal-backdrop{
+    z-index: 222;
+}
+.modal{
+    z-index: 333;
+    text-align: center;
+}
+#exampleModalBridge .modal-body{
+    background-color: #191C29;
+}
+#exampleModalBridge iframe{
+    max-width: 440px !important;
+}
+#exampleModalBridge .modal-title{
+    color: #191C29;
+}
 .saiiiiii{
     max-width: 900px;
     margin: 0 auto;
